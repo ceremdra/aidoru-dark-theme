@@ -1,0 +1,139 @@
+a:link, a:active {
+	text-decoration: none;
+	color: $main-light;
+}
+a:visited {
+	text-decoration: none;
+	color: $main-light;
+}
+a:hover {
+	text-decoration: underline;
+	color: #7db9e8;
+}
+span#wide-searches {
+	text-decoration: none;
+	color: $main-light;
+}
+span#wide-searches:hover {
+	cursor: pointer;
+}
+span#shout-notify {
+	text-decoration: none;
+	color: #B3E5FC;
+}
+span#shout-notify:hover {
+	cursor: pointer;
+  text-decoration: underline;
+}
+.navigation {
+	text-align: center;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	width: 100%;
+	background: #212121;
+	border: none;
+}
+.menu {
+	display: table;
+	padding: 0px;
+	height: 27px;
+	clear: both;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+	font-family: verdana, helvetica, sans-serif;
+}
+.menu ul {
+	display: table-row;
+	margin: 0px;
+	padding: 0px;
+}
+.menu ul li {
+	display: table-cell;
+	margin: 0px;
+	padding: 0px;
+}
+.menu ul li a {
+	font-size: 12px;
+	line-height: 40px;
+	font-weight: bold;
+	color: $main-light;
+	text-decoration: none;
+	display: block;
+	margin: 0px;
+	width: auto;
+	padding-top: 0px;
+	padding-right: 18px;
+	padding-bottom: 0px;
+	padding-left: 18px;
+}
+.menu ul li a:hover {
+	text-decoration: underline;
+}
+.bMenu {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.bMenu ul {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	list-style-position: inside;
+	list-style-type: circle;
+}
+.bMenu ul li {
+	width: auto;
+	color: #666;
+	text-decoration: none;
+}
+#navigate ul {
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#navigate ul li {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+#navigate ul li a {
+	text-align: left;
+	text-indent: 3px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 18px;
+	width: 100%;
+	font-family: verdana, helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: $main-light;
+}
+#navigate ul li a:hover {
+	color: #7db9e8;
+	text-decoration: none;
+	text-indent: 8px;
+}
+#nMember, #uOnline {
+	margin: 2px;
+	width: 98%;
+	padding: 2px;
+	font-family: Verdana, sans-serif;
+}
+#nMember p, #uOnline p {
+	display: inline;
+}
+#nMember ul, #nMember li, #uOnline ul, #uOnline li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	color: $main-light;
+}
