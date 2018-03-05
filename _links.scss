@@ -121,9 +121,9 @@ span#shout-notify:hover {
 	color: $main-light;
 }
 #navigate ul li a:hover {
-	color: #7db9e8;
-	text-decoration: none;
-	text-indent: 8px;
+	color: $main-light;
+	text-decoration: underline;
+	text-indent: 3px;
 }
 #nMember, #uOnline {
 	margin: 2px;

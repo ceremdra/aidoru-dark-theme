@@ -248,9 +248,9 @@ span#shout-notify:hover {
   color: #C8C8C8; }
 
 #navigate ul li a:hover {
-  color: #7db9e8;
-  text-decoration: none;
-  text-indent: 8px; }
+  color: #C8C8C8;
+  text-decoration: underline;
+  text-indent: 3px; }
 
 #nMember, #uOnline {
   margin: 2px;
