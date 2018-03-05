@@ -337,6 +337,8 @@ span#shout-notify:hover {
   background-color: #212121;
   border-top: none;
   border-bottom: 1px solid #464646; }
+  .ttable_new2 font[color="#ff0000"] {
+    color: #8BC34A; }
 
 .ttable_seeding {
   background-color: #33691E; }

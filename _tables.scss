@@ -67,6 +67,10 @@
 	background-color: #212121;
   border-top: none; // remove
 	border-bottom: $table-border;
+
+	font[color="#ff0000"] {
+    color: #8BC34A;
+  }
 }
 .ttable_seeding {
 	background-color: #33691E;
