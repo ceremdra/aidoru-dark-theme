@@ -135,12 +135,10 @@ a:visited {
   text-decoration: none;
   color: #C8C8C8; }
   a:visited:hover {
-    text-decoration: underline;
-    color: #7db9e8 !important; }
+    text-decoration: underline; }
 
 a:hover {
-  text-decoration: underline;
-  color: #7db9e8; }
+  text-decoration: underline; }
 
 span#wide-searches {
   text-decoration: none;
@@ -461,11 +459,21 @@ select[name="stylesheet"], select[name="language"] {
 
 .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
   color: #181818 !important;
-  background-color: #7db9e8 !important; }
+  background-color: #C8C8C8 !important; }
+  .nav-pills .nav-item.show .nav-link:hover, .nav-pills .nav-link.active:hover {
+    font-weight: normal !important; }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #181818 !important;
+  background-color: #C8C8C8 !important;
+  border-color: #aaa; }
 
 .nav-pills .nav-link:hover {
   color: #181818 !important;
-  background-color: #7db9e8 !important; }
+  background-color: #C8C8C8 !important; }
+
+.nav-tabs .nav-item .nav-link:hover {
+  color: #181818 !important; }
 
 body {
   color: #C8C8C8;
@@ -1109,7 +1117,7 @@ a.category-link, a.page-link {
 a.category-link:hover, a.page-link:hover {
   cursor: pointer;
   text-decoration: underline;
-  color: #7db9e8; }
+  color: inherit; }
 
 .shoutbox-reconnect {
   cursor: pointer;
