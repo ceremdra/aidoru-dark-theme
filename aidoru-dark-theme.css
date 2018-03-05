@@ -134,6 +134,9 @@ a:link, a:active {
 a:visited {
   text-decoration: none;
   color: #C8C8C8; }
+  a:visited:hover {
+    text-decoration: underline;
+    color: #7db9e8 !important; }
 
 a:hover {
   text-decoration: underline;
@@ -265,6 +268,9 @@ span#shout-notify:hover {
   margin: 0;
   padding: 0;
   color: #C8C8C8; }
+
+.nav-item .active {
+  background-color: #7db9e8; }
 
 .ttable_headouter {
   border-collapse: collapse; }
@@ -452,6 +458,14 @@ form[name="upload"] font {
 
 select[name="stylesheet"], select[name="language"] {
   width: 100%; }
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+  color: #181818 !important;
+  background-color: #7db9e8 !important; }
+
+.nav-pills .nav-link:hover {
+  color: #181818 !important;
+  background-color: #7db9e8 !important; }
 
 body {
   color: #C8C8C8;

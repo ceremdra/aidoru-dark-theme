@@ -40,6 +40,18 @@ form[name="upload"] {
 select[name="stylesheet"], select[name="language"] {
   width: 100%;
 }
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+  color: #181818!important;
+  background-color: #7db9e8!important;
+}
+.nav-pills .nav-link {
+  &:hover {
+    color: #181818!important;
+    background-color: #7db9e8!important;
+  }
+}
+
+///////
 body {
   color: $main-light;
 	background-color: #424242;

@@ -5,6 +5,11 @@ a:link, a:active {
 a:visited {
 	text-decoration: none;
 	color: $main-light;
+
+  &:hover {
+    text-decoration: underline;
+  	color: #7db9e8!important;
+  }
 }
 a:hover {
 	text-decoration: underline;
@@ -136,4 +141,9 @@ span#shout-notify:hover {
 	margin: 0;
 	padding: 0;
 	color: $main-light;
+}
+.nav-item {
+  .active {
+    background-color: #7db9e8;
+  }
 }
