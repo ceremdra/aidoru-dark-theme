@@ -230,6 +230,12 @@ body {
 	padding: 0px 4px 4px 4px;
 	border: 1px solid #212121;
   background-color: #212121;
+
+  td {
+    max-width: 500px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
 }
 
 .myFrame-news {
@@ -704,7 +710,7 @@ p.sub-filters a {
 }
 
 p.sub-filters a:hover {
-	background-color: #B3E5FC;
+	background-color: $lightblue;
 }
 
 p.sub-filters a.tt-sub-filter {
@@ -721,9 +727,10 @@ p.sub-filters a.tt-subcat-filter {
 }
 
 p.sub-filters a.selected {
-	  background-color: #181818;
+	  background-color: $lightblue;
 	  font-weight: bold;
-	  color: $main-light;
+	  color: #181818;
+    border: 1px solid $lightblue;
 }
 
 p.last-main-cat {

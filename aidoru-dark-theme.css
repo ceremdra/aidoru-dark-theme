@@ -714,6 +714,10 @@ body {
   padding: 0px 4px 4px 4px;
   border: 1px solid #212121;
   background-color: #212121; }
+  .myFrame-content td {
+    max-width: 500px;
+    overflow-wrap: break-word;
+    word-wrap: break-word; }
 
 .myFrame-news {
   display: block;
@@ -1158,9 +1162,10 @@ p.sub-filters a.tt-subcat-filter {
   width: 80px; }
 
 p.sub-filters a.selected {
-  background-color: #181818;
+  background-color: #B3E5FC;
   font-weight: bold;
-  color: #C8C8C8; }
+  color: #181818;
+  border: 1px solid #B3E5FC; }
 
 p.last-main-cat {
   display: none; }
