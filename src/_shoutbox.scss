@@ -1,0 +1,78 @@
+/* -- ShoutBox Styles -- */
+.shoutbox_body {
+	font-family: verdana;
+	color: black;
+	float: middle;
+	background-color: $main-light;
+}
+
+.shoutbox_contain {
+	border: 0;
+	height: 440;
+	max-height: 440;
+	width: 100%;
+	overflow: auto;
+	align: middle;
+  background-color: black;
+
+  a[target="_blank"] {
+    color: #B3E5FC;
+  }
+}
+
+.shoutbox_contain table {
+    width: 100%!important;
+}
+
+.shoutbox_history {
+	border: 0;
+	height: 100%;
+	width: 100%;
+	align: middle;
+}
+
+.shoutbox_messageboxback {
+	background-color: #212121;
+}
+
+.shoutbox_noalt {
+	background-color: #292929;
+	display: table;
+	width: 100%;
+}
+
+.shoutbox_alt {
+	background-color: #212121;
+	display: table;
+	width: 100%;
+}
+
+.shoutbox_noalt td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  	border-bottom: $table-border;
+}
+
+.shoutbox_alt td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  	border-bottom: $table-border;
+}
+
+.shoutbox_msgbox {
+	width: 100%;
+	font-size: 12px;
+	background-color: #E5E5E5;
+	border: 1px solid #777;
+}
+
+.shoutbox_shoutbtn {
+	font-size: 12px;
+	background-color: AliceBlue;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+.shoutdel-link:hover {
+	cursor: pointer;
+}

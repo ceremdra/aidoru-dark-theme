@@ -39,6 +39,40 @@ h4, h5, h6 {
 table {
   border-collapse: collapse; }
 
+/* This file is full of !important because of how files are ordered in A!O's
+ * header, nothing I can do about that - You have been warned
+ */
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+  color: #181818 !important;
+  background-color: #C8C8C8 !important; }
+  .nav-pills .nav-item.show .nav-link:hover, .nav-pills .nav-link.active:hover {
+    font-weight: normal !important; }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #181818 !important;
+  background-color: #C8C8C8 !important;
+  border-color: #aaa; }
+
+.nav-pills .nav-link:hover {
+  color: #181818 !important;
+  background-color: #C8C8C8 !important; }
+
+.nav-tabs .nav-item .nav-link:hover {
+  color: #181818 !important; }
+
+.panel-info {
+  border: none !important; }
+
+.panel-info > .panel-heading {
+  color: #C8C8C8 !important;
+  background-color: #181818 !important;
+  border: none !important;
+  border-bottom: 1px solid #777 !important; }
+
+.panel-body {
+  background-color: #181818 !important;
+  border: none !important; }
+
 input, select {
   font-family: Arial, Helvetica, sans-serif;
   margin: 1px;
@@ -419,7 +453,71 @@ span#shout-notify:hover {
 .stats-table td {
   text-indent: 4px; }
 
-/* Layout Styles */
+/* -- ShoutBox Styles -- */
+.shoutbox_body {
+  font-family: verdana;
+  color: black;
+  float: middle;
+  background-color: #C8C8C8; }
+
+.shoutbox_contain {
+  border: 0;
+  height: 440;
+  max-height: 440;
+  width: 100%;
+  overflow: auto;
+  align: middle;
+  background-color: black; }
+  .shoutbox_contain a[target="_blank"] {
+    color: #B3E5FC; }
+
+.shoutbox_contain table {
+  width: 100% !important; }
+
+.shoutbox_history {
+  border: 0;
+  height: 100%;
+  width: 100%;
+  align: middle; }
+
+.shoutbox_messageboxback {
+  background-color: #212121; }
+
+.shoutbox_noalt {
+  background-color: #292929;
+  display: table;
+  width: 100%; }
+
+.shoutbox_alt {
+  background-color: #212121;
+  display: table;
+  width: 100%; }
+
+.shoutbox_noalt td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #464646; }
+
+.shoutbox_alt td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #464646; }
+
+.shoutbox_msgbox {
+  width: 100%;
+  font-size: 12px;
+  background-color: #E5E5E5;
+  border: 1px solid #777; }
+
+.shoutbox_shoutbtn {
+  font-size: 12px;
+  background-color: AliceBlue;
+  border: 1px solid black;
+  font-weight: bold; }
+
+.shoutdel-link:hover {
+  cursor: pointer; }
+
 font[color=green] b {
   color: #8BC34A; }
 
@@ -437,19 +535,6 @@ font[color=black] b {
 input[type=file] {
   color: #212121; }
 
-.panel-info {
-  border: none !important; }
-
-.panel-info > .panel-heading {
-  color: #C8C8C8 !important;
-  background-color: #181818 !important;
-  border: none !important;
-  border-bottom: 1px solid #777 !important; }
-
-.panel-body {
-  background-color: #181818 !important;
-  border: none !important; }
-
 .dropzone {
   color: black; }
 
@@ -458,24 +543,6 @@ form[name="upload"] font {
 
 select[name="stylesheet"], select[name="language"] {
   width: 100%; }
-
-.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
-  color: #181818 !important;
-  background-color: #C8C8C8 !important; }
-  .nav-pills .nav-item.show .nav-link:hover, .nav-pills .nav-link.active:hover {
-    font-weight: normal !important; }
-
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: #181818 !important;
-  background-color: #C8C8C8 !important;
-  border-color: #aaa; }
-
-.nav-pills .nav-link:hover {
-  color: #181818 !important;
-  background-color: #C8C8C8 !important; }
-
-.nav-tabs .nav-item .nav-link:hover {
-  color: #181818 !important; }
 
 body {
   color: #C8C8C8;
@@ -513,7 +580,7 @@ body {
   padding-left: 15px; }
 
 .infobar {
-  color: #FAFAFA;
+  color: #C8C8C8;
   display: block;
   margin: 0px;
   padding: 0px;
@@ -670,42 +737,33 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83b8ff', endColorstr='#3d91ff', GradientType=0 );
   padding: 10px;
   box-shadow: none; }
-
-#downloadbox a {
-  font-size: 13px;
-  font-weight: bold;
-  color: #C8C8C8; }
+  #downloadbox a {
+    font-size: 13px;
+    font-weight: bold;
+    color: #C8C8C8; }
 
 .myFrame-content font[color=green] {
   color: #8BC34A; }
-
 .myFrame-content font[color=red] {
   color: #E57373; }
 
 #ty-button {
   color: black; }
-
-#ty-button[data-ty="0"]:hover {
-  cursor: pointer; }
+  #ty-button:hover {
+    cursor: pointer; }
 
 #ty-button[data-ty="1"] {
   opacity: 0.4;
   filter: alpha(opacity=40); }
-
-#ty-button[data-ty="1"]:hover {
-  background: #ddded9;
-  cursor: default; }
+  #ty-button[data-ty="1"]:hover {
+    background: #ddded9;
+    cursor: default; }
 
 img[data-ty="0"] {
   opacity: 0.9;
   filter: alpha(opacity=90); }
-
-img[data-ty="0"]:hover {
-  cursor: pointer; }
-
-img[data-ty="1"] {
-  opacity: 0.3;
-  filter: alpha(opacity=30); }
+  img[data-ty="0"]:hover {
+    cursor: pointer; }
 
 img[data-ty="1"] {
   opacity: 0.3;
@@ -713,75 +771,9 @@ img[data-ty="1"] {
 
 #torrent-marker {
   color: #C8C8C8; }
-
-#torrent-marker:hover {
-  cursor: pointer;
-  text-decoration: underline; }
-
-/* -- ShoutBox Styles -- */
-.shoutbox_body {
-  font-family: verdana;
-  color: black;
-  float: middle;
-  background-color: #C8C8C8; }
-
-.shoutbox_contain {
-  border: 0;
-  height: 440;
-  max-height: 440;
-  width: 100%;
-  overflow: auto;
-  align: middle;
-  background-color: black; }
-  .shoutbox_contain a[target="_blank"] {
-    color: #B3E5FC; }
-
-.shoutbox_contain table {
-  width: 100% !important; }
-
-.shoutbox_history {
-  border: 0;
-  height: 100%;
-  width: 100%;
-  align: middle; }
-
-.shoutbox_messageboxback {
-  background-color: #212121; }
-
-.shoutbox_noalt {
-  background-color: #292929;
-  display: table;
-  width: 100%; }
-
-.shoutbox_alt {
-  background-color: #212121;
-  display: table;
-  width: 100%; }
-
-.shoutbox_noalt td {
-  padding-top: 4px;
-  padding-bottom: 4px;
-  border-bottom: 1px solid #464646; }
-
-.shoutbox_alt td {
-  padding-top: 4px;
-  padding-bottom: 4px;
-  border-bottom: 1px solid #464646; }
-
-.shoutbox_msgbox {
-  width: 100%;
-  font-size: 12px;
-  background-color: #E5E5E5;
-  border: 1px solid #777; }
-
-.shoutbox_shoutbtn {
-  font-size: 12px;
-  background-color: AliceBlue;
-  border: 1px solid black;
-  font-weight: bold; }
-
-.shoutdel-link:hover {
-  cursor: pointer; }
+  #torrent-marker:hover {
+    cursor: pointer;
+    text-decoration: underline; }
 
 /* -- Error Styles -- */
 .shoutbox_error {

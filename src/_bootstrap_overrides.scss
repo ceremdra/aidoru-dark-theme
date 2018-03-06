@@ -1,0 +1,46 @@
+/* This file is full of !important because of how files are ordered in A!O's
+ * header, nothing I can do about that - You have been warned
+ */
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+  color: #181818!important;
+  background-color: $main-light!important;
+
+  &:hover {
+    font-weight: normal!important;
+  }
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #181818!important;
+  background-color: $main-light!important;
+  border-color: #aaa;
+}
+.nav-pills .nav-link {
+  &:hover {
+    color: #181818!important;
+    background-color: $main-light!important;
+  }
+}
+.nav-tabs {
+  .nav-item {
+    .nav-link {
+      &:hover {
+        color: #181818!important;
+      }
+    }
+  }
+}
+
+.panel-info {
+  border: none!important;
+}
+.panel-info>.panel-heading {
+    color: $main-light!important;
+    background-color: #181818!important;
+    border: none!important;
+    border-bottom: 1px solid #777!important;
+}
+.panel-body {
+    background-color: #181818!important;
+    border: none!important;
+}
