@@ -209,51 +209,45 @@ span#shout-notify:hover {
   margin-left: auto;
   width: auto;
   font-family: verdana, helvetica, sans-serif; }
-
-.menu ul {
-  display: table-row;
-  margin: 0px;
-  padding: 0px; }
-
-.menu ul li {
-  display: table-cell;
-  margin: 0px;
-  padding: 0px; }
-
-.menu ul li a {
-  font-size: 12px;
-  line-height: 40px;
-  font-weight: bold;
-  color: #C8C8C8;
-  text-decoration: none;
-  display: block;
-  margin: 0px;
-  width: auto;
-  padding-top: 0px;
-  padding-right: 18px;
-  padding-bottom: 0px;
-  padding-left: 18px; }
-
-.menu ul li a:hover {
-  text-decoration: underline; }
+  .menu ul {
+    display: table-row;
+    margin: 0px;
+    padding: 0px; }
+    .menu ul li {
+      display: table-cell;
+      margin: 0px;
+      padding: 0px; }
+      .menu ul li a {
+        font-size: 12px;
+        line-height: 40px;
+        font-weight: bold;
+        color: #C8C8C8;
+        text-decoration: none;
+        display: block;
+        margin: 0px;
+        width: auto;
+        padding-top: 0px;
+        padding-right: 18px;
+        padding-bottom: 0px;
+        padding-left: 18px; }
+        .menu ul li a:hover {
+          text-decoration: underline; }
 
 .bMenu {
   display: block;
   margin: 0px;
   padding: 0px;
   width: 100%; }
-
-.bMenu ul {
-  display: block;
-  margin: 0px;
-  padding: 0px;
-  list-style-position: inside;
-  list-style-type: circle; }
-
-.bMenu ul li {
-  width: auto;
-  color: #666;
-  text-decoration: none; }
+  .bMenu ul {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    list-style-position: inside;
+    list-style-type: circle; }
+    .bMenu ul li {
+      width: auto;
+      color: #666;
+      text-decoration: none; }
 
 #navigate ul {
   list-style-type: none;
@@ -262,29 +256,26 @@ span#shout-notify:hover {
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto; }
-
-#navigate ul li {
-  margin: 0px;
-  padding: 0px;
-  width: 100%; }
-
-#navigate ul li a {
-  text-align: left;
-  text-indent: 3px;
-  display: block;
-  margin: 0px;
-  padding: 0px;
-  height: 18px;
-  width: 100%;
-  font-family: verdana, helvetica, sans-serif;
-  line-height: 18px;
-  font-size: 11px;
-  color: #C8C8C8; }
-
-#navigate ul li a:hover {
-  color: #C8C8C8;
-  text-decoration: underline;
-  text-indent: 3px; }
+  #navigate ul li {
+    margin: 0px;
+    padding: 0px;
+    width: 100%; }
+    #navigate ul li a {
+      text-align: left;
+      text-indent: 3px;
+      display: block;
+      margin: 0px;
+      padding: 0px;
+      height: 18px;
+      width: 100%;
+      font-family: verdana, helvetica, sans-serif;
+      line-height: 18px;
+      font-size: 11px;
+      color: #C8C8C8; }
+      #navigate ul li a:hover {
+        color: #C8C8C8;
+        text-decoration: underline;
+        text-indent: 3px; }
 
 #nMember, #uOnline {
   margin: 2px;
