@@ -509,9 +509,6 @@ span#shout-notify:hover {
 .shoutdel-link:hover {
   cursor: pointer; }
 
-.ty {
-  margin-top: -.25em; }
-
 div[data-com="0"] {
   opacity: 0.9;
   filter: alpha(opacity=90); }
