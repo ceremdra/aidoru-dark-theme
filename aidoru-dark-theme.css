@@ -713,10 +713,6 @@ body {
   padding: 0px 4px 4px 4px;
   border: 1px solid #212121;
   background-color: #212121; }
-  .myFrame-content td {
-    max-width: 500px;
-    overflow-wrap: break-word;
-    word-wrap: break-word; }
 
 .myFrame-news {
   display: block;
