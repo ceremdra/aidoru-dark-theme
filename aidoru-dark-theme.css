@@ -1162,7 +1162,7 @@ p.sub-filters a.tt-subcat-filter {
 
 p.sub-filters a.selected {
   background-color: #B3E5FC;
-  font-weight: bold;
+  font-weight: normal;
   color: #181818;
   border: 1px solid #B3E5FC; }
 
