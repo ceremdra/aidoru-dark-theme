@@ -509,6 +509,19 @@ span#shout-notify:hover {
 .shoutdel-link:hover {
   cursor: pointer; }
 
+.shoutbox-extra-row {
+  display: none; }
+  .shoutbox-extra-row .bb-smiles-box {
+    background: inherit;
+    border-bottom: none; }
+    .shoutbox-extra-row .bb-smiles-box .shout_smile:hover {
+      cursor: pointer; }
+
+.ui-icon-darken {
+  background-image: url("images/dl_but_clear_white.png");
+  width: 16px;
+  height: 16px; }
+
 div[data-com="0"] {
   opacity: 0.9;
   filter: alpha(opacity=90); }

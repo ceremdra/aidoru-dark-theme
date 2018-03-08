@@ -76,3 +76,16 @@
 .shoutdel-link:hover {
 	cursor: pointer;
 }
+
+.shoutbox-extra-row {
+  display: none;
+
+  .bb-smiles-box {
+    background: inherit;
+    border-bottom: none;
+
+    .shout_smile:hover {
+      cursor: pointer;
+    }
+  }
+}
