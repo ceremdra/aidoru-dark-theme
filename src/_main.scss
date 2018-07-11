@@ -925,3 +925,30 @@ p.last-main-cat {
         width: 100%;
     }
 }
+
+.comments-main-user {
+  width: 120px;
+  padding: 4px;
+}
+
+.comments-but {
+  float: left;
+  padding: 6px;
+
+  &:hover {
+    background: #b2ddff;
+    cursor: pointer;
+  }
+}
+
+.myFrame-caption {
+  a {
+    color: #c8c8c8!important;
+  }
+}
+
+#comments-refresh {
+  &:hover {
+    cursor: pointer;
+  }
+}
